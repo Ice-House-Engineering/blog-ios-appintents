@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074538862859A03200E0B4E5 /* SportLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538852859A03200E0B4E5 /* SportLogApp.swift */; };
+		074538882859A03200E0B4E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538872859A03200E0B4E5 /* ContentView.swift */; };
+		0745388A2859A03300E0B4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074538892859A03300E0B4E5 /* Assets.xcassets */; };
+		0745388D2859A03300E0B4E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0745388C2859A03300E0B4E5 /* Preview Assets.xcassets */; };
+		074538972859A03300E0B4E5 /* SportLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538962859A03300E0B4E5 /* SportLogTests.swift */; };
+		074538A12859A03300E0B4E5 /* SportLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538A02859A03300E0B4E5 /* SportLogUITests.swift */; };
+		074538A32859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074538932859A03300E0B4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0745387A2859A03200E0B4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074538812859A03200E0B4E5;
+			remoteInfo = SportLog;
+		};
+		0745389D2859A03300E0B4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0745387A2859A03200E0B4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074538812859A03200E0B4E5;
+			remoteInfo = SportLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074538822859A03200E0B4E5 /* SportLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074538852859A03200E0B4E5 /* SportLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogApp.swift; sourceTree = "<group>"; };
+		074538872859A03200E0B4E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		074538892859A03300E0B4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0745388C2859A03300E0B4E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		074538922859A03300E0B4E5 /* SportLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074538962859A03300E0B4E5 /* SportLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogTests.swift; sourceTree = "<group>"; };
+		0745389C2859A03300E0B4E5 /* SportLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074538A02859A03300E0B4E5 /* SportLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogUITests.swift; sourceTree = "<group>"; };
+		074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0745387F2859A03200E0B4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0745388F2859A03300E0B4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074538992859A03300E0B4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074538792859A03200E0B4E5 = {
+			isa = PBXGroup;
+			children = (
+				074538842859A03200E0B4E5 /* SportLog */,
+				074538952859A03300E0B4E5 /* SportLogTests */,
+				0745389F2859A03300E0B4E5 /* SportLogUITests */,
+				074538832859A03200E0B4E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074538832859A03200E0B4E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074538822859A03200E0B4E5 /* SportLog.app */,
+				074538922859A03300E0B4E5 /* SportLogTests.xctest */,
+				0745389C2859A03300E0B4E5 /* SportLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074538842859A03200E0B4E5 /* SportLog */ = {
+			isa = PBXGroup;
+			children = (
+				074538852859A03200E0B4E5 /* SportLogApp.swift */,
+				074538872859A03200E0B4E5 /* ContentView.swift */,
+				074538892859A03300E0B4E5 /* Assets.xcassets */,
+				0745388B2859A03300E0B4E5 /* Preview Content */,
+			);
+			path = SportLog;
+			sourceTree = "<group>";
+		};
+		0745388B2859A03300E0B4E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0745388C2859A03300E0B4E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		074538952859A03300E0B4E5 /* SportLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				074538962859A03300E0B4E5 /* SportLogTests.swift */,
+			);
+			path = SportLogTests;
+			sourceTree = "<group>";
+		};
+		0745389F2859A03300E0B4E5 /* SportLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				074538A02859A03300E0B4E5 /* SportLogUITests.swift */,
+				074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */,
+			);
+			path = SportLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074538812859A03200E0B4E5 /* SportLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074538A62859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLog" */;
+			buildPhases = (
+				0745387E2859A03200E0B4E5 /* Sources */,
+				0745387F2859A03200E0B4E5 /* Frameworks */,
+				074538802859A03200E0B4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportLog;
+			productName = SportLog;
+			productReference = 074538822859A03200E0B4E5 /* SportLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074538912859A03300E0B4E5 /* SportLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074538A92859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLogTests" */;
+			buildPhases = (
+				0745388E2859A03300E0B4E5 /* Sources */,
+				0745388F2859A03300E0B4E5 /* Frameworks */,
+				074538902859A03300E0B4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074538942859A03300E0B4E5 /* PBXTargetDependency */,
+			);
+			name = SportLogTests;
+			productName = SportLogTests;
+			productReference = 074538922859A03300E0B4E5 /* SportLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0745389B2859A03300E0B4E5 /* SportLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074538AC2859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLogUITests" */;
+			buildPhases = (
+				074538982859A03300E0B4E5 /* Sources */,
+				074538992859A03300E0B4E5 /* Frameworks */,
+				0745389A2859A03300E0B4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0745389E2859A03300E0B4E5 /* PBXTargetDependency */,
+			);
+			name = SportLogUITests;
+			productName = SportLogUITests;
+			productReference = 0745389C2859A03300E0B4E5 /* SportLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0745387A2859A03200E0B4E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					074538812859A03200E0B4E5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					074538912859A03300E0B4E5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 074538812859A03200E0B4E5;
+					};
+					0745389B2859A03300E0B4E5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 074538812859A03200E0B4E5;
+					};
+				};
+			};
+			buildConfigurationList = 0745387D2859A03200E0B4E5 /* Build configuration list for PBXProject "SportLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074538792859A03200E0B4E5;
+			productRefGroup = 074538832859A03200E0B4E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074538812859A03200E0B4E5 /* SportLog */,
+				074538912859A03300E0B4E5 /* SportLogTests */,
+				0745389B2859A03300E0B4E5 /* SportLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074538802859A03200E0B4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0745388D2859A03300E0B4E5 /* Preview Assets.xcassets in Resources */,
+				0745388A2859A03300E0B4E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074538902859A03300E0B4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0745389A2859A03300E0B4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0745387E2859A03200E0B4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074538882859A03200E0B4E5 /* ContentView.swift in Sources */,
+				074538862859A03200E0B4E5 /* SportLogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0745388E2859A03300E0B4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074538972859A03300E0B4E5 /* SportLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074538982859A03300E0B4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074538A32859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift in Sources */,
+				074538A12859A03300E0B4E5 /* SportLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074538942859A03300E0B4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074538812859A03200E0B4E5 /* SportLog */;
+			targetProxy = 074538932859A03300E0B4E5 /* PBXContainerItemProxy */;
+		};
+		0745389E2859A03300E0B4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074538812859A03200E0B4E5 /* SportLog */;
+			targetProxy = 0745389D2859A03300E0B4E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074538A42859A03300E0B4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		074538A52859A03300E0B4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074538A72859A03300E0B4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		074538A82859A03300E0B4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		074538AA2859A03300E0B4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportLog";
+			};
+			name = Debug;
+		};
+		074538AB2859A03300E0B4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportLog";
+			};
+			name = Release;
+		};
+		074538AD2859A03300E0B4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportLog;
+			};
+			name = Debug;
+		};
+		074538AE2859A03300E0B4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = habibi.SportLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0745387D2859A03200E0B4E5 /* Build configuration list for PBXProject "SportLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074538A42859A03300E0B4E5 /* Debug */,
+				074538A52859A03300E0B4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074538A62859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074538A72859A03300E0B4E5 /* Debug */,
+				074538A82859A03300E0B4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074538A92859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074538AA2859A03300E0B4E5 /* Debug */,
+				074538AB2859A03300E0B4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074538AC2859A03300E0B4E5 /* Build configuration list for PBXNativeTarget "SportLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074538AD2859A03300E0B4E5 /* Debug */,
+				074538AE2859A03300E0B4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0745387A2859A03200E0B4E5 /* Project object */;
+}
