@@ -7,11 +7,29 @@
 
 import SwiftUI
 
+class SelectedSportActivity: ObservableObject {
+	@Published var currentSelected: SportActivity? = nil
+}
+
 @main
 struct SportLogApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	
+	@Environment(\.scenePhase) var scenePhase
+	@StateObject var selectedSportActivity = SelectedSportActivity()
+	
+	var body: some Scene {
+		WindowGroup {
+			MainView()
+				.environmentObject(selectedSportActivity)
+		}
+		.onChange(of: scenePhase) { newPhase in
+			if newPhase == .active {
+				
+			} else if newPhase == .inactive {
+				
+			} else if newPhase == .background {
+				
+			}
+		}
+	}
 }

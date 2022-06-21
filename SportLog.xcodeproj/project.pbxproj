@@ -14,6 +14,13 @@
 		074538972859A03300E0B4E5 /* SportLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538962859A03300E0B4E5 /* SportLogTests.swift */; };
 		074538A12859A03300E0B4E5 /* SportLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538A02859A03300E0B4E5 /* SportLogUITests.swift */; };
 		074538A32859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */; };
+		074538B02859A06700E0B4E5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538AF2859A06700E0B4E5 /* MainView.swift */; };
+		074538B22859C17700E0B4E5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538B12859C17700E0B4E5 /* DetailView.swift */; };
+		074538B42859C22F00E0B4E5 /* SingleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538B32859C22F00E0B4E5 /* SingleBox.swift */; };
+		074538B92859CA6D00E0B4E5 /* SportLogIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538B82859CA6D00E0B4E5 /* SportLogIntents.swift */; };
+		074538BB2859DC0500E0B4E5 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074538BA2859DC0500E0B4E5 /* ProgressView.swift */; };
+		07CE31722859EBBB003E81AF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE31712859EBBB003E81AF /* OrderView.swift */; };
+		07FD0DB4285A3D3800A1F750 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD0DB3285A3D3800A1F750 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		0745389C2859A03300E0B4E5 /* SportLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		074538A02859A03300E0B4E5 /* SportLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogUITests.swift; sourceTree = "<group>"; };
 		074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		074538AF2859A06700E0B4E5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		074538B12859C17700E0B4E5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		074538B32859C22F00E0B4E5 /* SingleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBox.swift; sourceTree = "<group>"; };
+		074538B82859CA6D00E0B4E5 /* SportLogIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportLogIntents.swift; sourceTree = "<group>"; };
+		074538BA2859DC0500E0B4E5 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		07CE31712859EBBB003E81AF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		07FD0DB3285A3D3800A1F750 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,10 @@
 		074538842859A03200E0B4E5 /* SportLog */ = {
 			isa = PBXGroup;
 			children = (
+				074538B72859CA5200E0B4E5 /* Intents */,
+				074538B62859C9E500E0B4E5 /* Components */,
+				074538B52859C9D800E0B4E5 /* Views */,
 				074538852859A03200E0B4E5 /* SportLogApp.swift */,
-				074538872859A03200E0B4E5 /* ContentView.swift */,
 				074538892859A03300E0B4E5 /* Assets.xcassets */,
 				0745388B2859A03300E0B4E5 /* Preview Content */,
 			);
@@ -125,6 +141,35 @@
 				074538A22859A03300E0B4E5 /* SportLogUITestsLaunchTests.swift */,
 			);
 			path = SportLogUITests;
+			sourceTree = "<group>";
+		};
+		074538B52859C9D800E0B4E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				074538B12859C17700E0B4E5 /* DetailView.swift */,
+				074538AF2859A06700E0B4E5 /* MainView.swift */,
+				074538872859A03200E0B4E5 /* ContentView.swift */,
+				07CE31712859EBBB003E81AF /* OrderView.swift */,
+				07FD0DB3285A3D3800A1F750 /* ViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		074538B62859C9E500E0B4E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				074538B32859C22F00E0B4E5 /* SingleBox.swift */,
+				074538BA2859DC0500E0B4E5 /* ProgressView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		074538B72859CA5200E0B4E5 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				074538B82859CA6D00E0B4E5 /* SportLogIntents.swift */,
+			);
+			path = Intents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				074538882859A03200E0B4E5 /* ContentView.swift in Sources */,
+				07FD0DB4285A3D3800A1F750 /* ViewModel.swift in Sources */,
+				07CE31722859EBBB003E81AF /* OrderView.swift in Sources */,
+				074538B92859CA6D00E0B4E5 /* SportLogIntents.swift in Sources */,
+				074538B22859C17700E0B4E5 /* DetailView.swift in Sources */,
+				074538B02859A06700E0B4E5 /* MainView.swift in Sources */,
+				074538BB2859DC0500E0B4E5 /* ProgressView.swift in Sources */,
 				074538862859A03200E0B4E5 /* SportLogApp.swift in Sources */,
+				074538B42859C22F00E0B4E5 /* SingleBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +476,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +505,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
